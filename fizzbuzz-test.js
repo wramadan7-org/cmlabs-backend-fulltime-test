@@ -1,4 +1,4 @@
-const FizzBuzz = () => {
+const fizzBuzz = () => {
   const range = 100;
 
   for (let i = 1; i <= range; i++) {
@@ -18,4 +18,4 @@ const FizzBuzz = () => {
   }
 };
 
-FizzBuzz();
+fizzBuzz();

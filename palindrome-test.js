@@ -1,6 +1,6 @@
-const singleWord = (palindromParam) => {
+const singleWord = (palindromeParam) => {
   // Set string to lowercase
-  const setToLowerCaseWord = palindromParam.toLowerCase();
+  const setToLowerCaseWord = palindromeParam.toLowerCase();
   // Split the strings by word, reverse them, and concatenate them
   const reversWord = setToLowerCaseWord.split("").reverse().join("");
   // Set default result to false
@@ -11,13 +11,13 @@ const singleWord = (palindromParam) => {
   }
 
   console.log(`string: ${setToLowerCaseWord}`);
-  console.log(`single palindrom: ${result}`);
+  console.log(`single palindrome: ${result}`);
   console.log("=========================");
 };
 
-const multipleWord = (palindromParam) => {
+const multipleWord = (palindromeParam) => {
   // Set string to lowercase
-  const setToLowerCaseWord = palindromParam.toLowerCase();
+  const setToLowerCaseWord = palindromeParam.toLowerCase();
   // Set result
   let result = false;
 
@@ -49,7 +49,7 @@ const multipleWord = (palindromParam) => {
     // Join the word with separate ,
     const resultWord = wordComma.join(", ");
 
-    // Check if the word is palindrom or not
+    // Check if the word is palindrome or not
     if (resultWord === setToLowerCaseWord) {
       result = true;
     } else {
@@ -57,7 +57,7 @@ const multipleWord = (palindromParam) => {
     }
 
     console.log(`string: ${setToLowerCaseWord}`);
-    console.log(`multiple palindrom: ${result}`);
+    console.log(`multiple palindrome: ${result}`);
     console.log("=========================");
     return;
   }
@@ -80,7 +80,7 @@ const multipleWord = (palindromParam) => {
   }
 
   console.log(`string: ${setToLowerCaseWord}`);
-  console.log(`multiple palindrom: ${result}`);
+  console.log(`multiple palindrome: ${result}`);
   console.log("=========================");
 };
 
